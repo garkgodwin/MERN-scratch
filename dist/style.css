@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 239, 207);
+}
+
+.container {
+  padding: 40px;
+}
+
+.header {
+  background-color: gray;
+}
+
+button,
+a {
+  min-width: 40px;
+  min-height: 24px;
+  cursor: pointer;
+}
+
+.Projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ProjectPreview {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.ProjectPreview h3 {
+  background-color: gray;
+  text-align: center;
+  padding: 2px;
+}
+.ProjectPreview p {
+  background-color: white;
+  margin-top: 4px;
+}
+
+.Project {
+  margin-top: 8px;
+  padding: 8px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+}
+.Project .summary {
+  padding: 8px;
+}
+
+.link {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.link:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  background-color: gray;
+  font-size: 20px;
+  color: white;
+  padding: 2px;
+  margin-top: 12px;
+}
+.body {
+  background-color: white;
+  border: 1px solid black;
+  padding: 4px;
+}
